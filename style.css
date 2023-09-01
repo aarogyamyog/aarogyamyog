@@ -27,15 +27,6 @@ width:100%;
 position:fixed;
 bottom:0px;
 }
- #myCarousel
-{
-    background-color: red;
-}
-
-#myCarousel img
-{
-    height: 350px;
-       }
 
 .carousel-inner p
 {
@@ -62,13 +53,6 @@ height: 30px;
   color: beige;
   font-size:120%;
 }
-
-#video{
-  width:100%;
-  height:500px;
-  border: none;
-}
-
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -188,15 +172,24 @@ color: #ff7700;
     height: 170px;
     border: 1px solid black;
 }
-@media only screen and (max-width:500px)
+@media only screen and (max-width:700px)
 {
   /* For mobile phones: */
-  #price_element {
+  #price_element
+  {
       width: 100%;
+  }
+  #myCarousel
+  {
+    height: 1%;
   }
 }
 .about_teacher
 {
   text-align: left;
   padding: 10px;
+}
+#myCarousel
+{
+  background: #ff7700;
 }
